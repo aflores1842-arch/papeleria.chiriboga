@@ -52,7 +52,7 @@ export default function ChiribogaReplica() {
           <div className="flex items-center gap-4">
             <Menu className="lg:hidden text-slate-800" />
             <h1 className="text-2xl md:text-3xl font-black tracking-tighter text-[#111827]">
-              CHIRIBOGA<span className="text-orange-500">.</span>
+             PAPELERIA CHIRIBOGA<span className="text-orange-500">.</span>
             </h1>
           </div>
 
@@ -212,4 +212,5 @@ function ProductCard({ img, title, price, tag }: any) {
     </div>
   );
 }
+
 
