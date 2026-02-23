@@ -92,7 +92,7 @@ export default function ChiribogaReplica() {
           <div className="lg:col-span-2 bg-orange-500 rounded-[2rem] p-8 md:p-12 relative overflow-hidden flex items-center shadow-xl shadow-orange-200 group">
             <div className="relative z-10 max-w-md">
               <p className="text-orange-950 font-black text-xs uppercase tracking-widest mb-4">¡Novedades 2026!</p>
-              <h2 className="text-4xl md:text-6xl font-black text-white leading-[1.1] mb-8">TODO EL ARTE EN UN SOLO LUGAR.</h2>
+              <h2 className="text-4xl md:text-6xl font-black text-white leading-[1.1] mb-8">TODOS TUS UTILES ESCOLARES EN UN SOLO LUGAR.</h2>
               <button className="bg-[#111827] text-white px-8 py-3.5 rounded-xl font-bold text-xs uppercase tracking-widest hover:scale-105 transition-transform">Ver Catálogo</button>
             </div>
             <img src="https://images.unsplash.com/photo-1513519245088-0e12902e5a38?w=600" className="absolute right-[-5%] bottom-[-5%] w-1/2 opacity-40 group-hover:scale-110 transition-transform duration-700" alt="arte" />
@@ -212,5 +212,6 @@ function ProductCard({ img, title, price, tag }: any) {
     </div>
   );
 }
+
 
 
