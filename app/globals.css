@@ -1,4 +1,6 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 body {
   background-color: #E9ECEF; /* Gris de fondo de la imagen */
   color: #232F3E;
@@ -17,4 +19,5 @@ body {
 
 .animate-float {
   animation: float 5s ease-in-out infinite;
+
 }
