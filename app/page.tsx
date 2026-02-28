@@ -157,7 +157,7 @@ export default function ChiribogaReplica() {
 
       {/* --- BOTÓN FLOTANTE DE WHATSAPP --- */}
       <a 
-        href="https://wa.me/593900000000?text=Hola!%20Vengo%20de%20la%20web%20y%20quiero%20consultar%20sobre%20un%20producto." 
+        href="https://wa.me/593997727604?text=Hola!%20Vengo%20de%20la%20web%20y%20quiero%20consultar%20sobre%20un%20producto." 
         target="_blank" 
         rel="noopener noreferrer"
         className="fixed bottom-8 right-8 z-[100] bg-[#25D366] text-white p-4 rounded-full shadow-2xl hover:scale-110 active:scale-95 transition-all duration-300 group flex items-center overflow-hidden"
@@ -212,6 +212,7 @@ function ProductCard({ img, title, price, tag }: any) {
     </div>
   );
 }
+
 
 
 
